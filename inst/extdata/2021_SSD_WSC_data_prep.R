@@ -100,7 +100,7 @@ result_analysis_IPC <- analyse_country(
   context_AP = filter(ssd_analysis_plan, data_source_name == "IPC"),
   admin_analysis = admin_analysis,
   country_iso3 =  "SSD",
-  google_api_key = "AIzaSyAfchnrcGcaq4J-k_Y59NWRFqBvBUY5-JY",
+  google_api_key = NULL,
   pop_df = pop_df,
   WIS_water = WIS_water_alt3,
   WSC_AP = WSC_AP
@@ -111,7 +111,7 @@ result_analysis <- analyse_country(
   context_AP = ssd_analysis_plan,
   admin_analysis = admin_analysis,
   country_iso3 =  "SSD",
-  google_api_key = "AIzaSyAfchnrcGcaq4J-k_Y59NWRFqBvBUY5-JY",
+  google_api_key = NULL,
   pop_df = pop_df,
   WIS_water = WIS_water_alt3,
   WSC_AP = WSC_AP
